@@ -1,0 +1,126 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#initial-row {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-left {
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+
+#left-menu-container {
+    padding: 0;
+    margin: 0;
+
+}
+
+#left-side {
+    padding: 0;
+    margin: 0;
+}
+
+#inner-bar {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-glyphicon {
+    font-size: 30px;
+}
+
+.left-menu-item {
+    height: 70px;
+    margin: 5px 15%;
+}
+
+#myCarousel {
+    height: 100vh;
+}
+
+#carousel-wraper {
+    padding: 0;    
+}
+
+.center-block {
+    height: 100%;
+    background-position: center;
+
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+#calendar {
+    background-color: green;
+    height: 100vh;
+    color: white;
+}
+
+#calendar tr:hover {
+    cursor: pointer;
+}
+
+.hide-button {
+    position: absolute;
+    top: 40%;
+    left: -7px;
+    height: 40px;
+    width: 20px;
+    padding: 0;
+}
+
+.show-button {
+    position: absolute;
+    top: 40%;
+    right: -7px;
+    height: 40px;
+    width: 20px;
+    padding: 0;
+}
+
+/* Tooltip */
+#left-menu + .tooltip > .tooltip-inner {
+    background-color: #73AD21; 
+    color: #FFFFFF; 
+    border: 1px solid green;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.menu-glyphicon + .tooltip  {
+    background-color: green; 
+    color: white; 
+    border: 1px solid green;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* Tooltip on right */
+.menu-glyphicon + .tooltip.right  {
+    border-right: 5px solid black;
+}
+
+.my-active {
+    background: url(../Images/arrow.png);
+    color: black;
+    background-size: 100% 100%;
+}
+
+.selected {
+    background: url(../Images/arrow.png);
+    color: black;
+    background-size: 100% 100%;
+}
+
+.carousel-indicators {
+    bottom: 80px !important;
+}
+
+

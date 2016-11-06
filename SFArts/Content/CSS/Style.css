@@ -1,0 +1,135 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    font-size: large;
+}
+
+#initial-container {
+    height:100%;
+}
+
+#initial-row {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    opacity: 0;
+    z-index: 1;
+}
+
+.sidebar:hover {
+    visibility: visible;    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 25px 0;
+}
+
+.sidebar img {
+    width: 80%;
+    margin-left: 5px;
+}
+
+.sidebar img:hover {
+    cursor: pointer;
+}
+
+/*FIX. 
+Should take exactly 100% height on medium devices*/
+#calendar {
+    height: 100%;
+    background-color: green;
+    /*padding-bottom: 207px;
+    margin-bottom: -207px;*/
+    color: white;
+    /*display: table-cell;*/
+}
+
+#calendar tr:hover {
+    cursor: pointer;
+}
+
+.my-active {
+    background: url(../Images/arrow.png);
+    color: black;
+    background-size: 100% 100%;
+}
+
+.selected {
+    background: url(../Images/arrow.png);
+    color: black;
+    background-size: 100% 100%;
+}
+
+.hide-button {
+    position: absolute;
+    top: 40%;
+    left: -7px;
+    height: 40px;
+    width: 20px;
+    padding: 0;
+}
+
+.show-button {
+    position: absolute;
+    top: 40%;
+    right: -7px;
+    height: 40px;
+    width: 20px;
+    padding: 0;
+}
+
+#carousel-wraper {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.panel-heading {
+    padding: 0 !important;
+}
+
+#news-feed {
+    padding-top: 15px;
+}
+
+#left-side {
+    padding-right: 0;
+    background-color: green;
+    padding-left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.carousel-bottom-buttons {
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+    left: 5px;
+}
+
+.carousel-indicators {
+    bottom: 80px !important;
+}
+
+
+

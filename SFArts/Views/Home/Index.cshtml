@@ -1,0 +1,228 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link rel="stylesheet" href="../../Content/CSS/Style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#hide-button").click(function() {
+            $("#left-side").toggleClass("col-md-6");
+            $("#left-side").toggleClass("col-md-3");
+            $("#right-side").toggleClass("col-md-6");
+            $("#right-side").toggleClass("col-md-9");
+
+            if ($("#carousel-wraper").css("display") == "none"){
+                $('#carousel-wraper').css('display', 'block');
+                $("#calendar").css("height", "100%");
+            }
+            else{
+                $("#carousel-wraper").css("display", "none");
+                $("#calendar").css("height", "100vh");
+            }
+
+            $("#calendar").toggleClass("col-md-3");
+            $("#calendar").toggleClass("col-md-12");
+            $("#carousel-wraper").toggleClass("col-md-9");
+
+            $("#hide-button").toggleClass("hide-button");
+            $("#hide-button").toggleClass("show-button");
+
+            if ($("#hide-button").hasClass("hide-button")) {
+                $("#hide-button").html("<span class=\"glyphicon glyphicon-chevron-left\"></span>");
+            } else {
+                $("#hide-button").html("<span class=\"glyphicon glyphicon-chevron-right\"></span>");
+            }
+
+
+        });
+
+        $(".sidebar").hover(function () {
+            $(this).fadeTo(400,1);
+        }, function () {
+            $(this).fadeTo(400,0);
+        });
+
+        $(".table tr").click(function () {
+            var selected = $(".table .selected");
+            $(".table .selected").removeClass("selected").removeClass("my-active");
+            $(this).addClass("selected");
+        });
+
+        $(".table tr").hover(function() {
+            console.log("i hover the tr");
+            $(this).addClass("my-active");
+        }, function () {
+            console.log("i unhover the tr");
+            $(this).removeClass("my-active");
+        });
+
+        $('[data-toggle="tooltip"]').tooltip();
+        //var leftSideHeight = $("#carousel-wraper").css("height");
+        //$("#calendar").css("height", leftSideHeight);
+    });
+</script>
+
+
+<div class="sidebar">
+    <ul>
+        <li> <img src="../../Content/Images/Sidebar/menu.png" rel="tooltip" data-toggle="tooltip" data-html="true" data-placement="right"
+                  title="<h3>Menu </h3>"/> </li>
+        <li> <img src="../../Content/Images/Sidebar/left_arrow.png" rel="tooltip" data-toggle="tooltip" data-html="true" data-placement="right"
+                  title="<h3>Back </h3>"/>   </li>
+        <li> <img src="../../Content/Images/Sidebar/location.png" rel="tooltip" data-toggle="tooltip" data-html="true" data-placement="right"
+                  title="<h3>Nearby </h3>"/>  </li>
+        <li> <img src="../../Content/Images/Sidebar/star.png" rel="tooltip" data-toggle="tooltip" data-html="true" data-placement="right"
+                  title="<h3>Favorite </h3>"/>  </li>
+        <li> <img src="../../Content/Images/Sidebar/search.png" rel="tooltip" data-toggle="tooltip" data-html="true" data-placement="right"
+                  title="<h3>Find </h3>"/>  </li>
+        <li> <img src="../../Content/Images/Sidebar/phone.png" rel="tooltip" data-toggle="tooltip" data-html="true" data-placement="right"
+                  title="<h3>Mobile version </h3>"/>  </li>
+    </ul>
+</div>
+
+<div class="container-fluid" id="initial-container">
+    <div class="row" id="initial-row">
+        <div class="col-md-6" id="left-side" >
+
+
+            <div class="col-md-9" id="carousel-wraper">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="../../Content/Images/exhibit.jpg" alt="Exhibit">
+                        </div>
+
+                        <div class="item">
+                            <img src="../../Content/Images/exhibit.jpg" alt="Exhibit">
+                        </div>
+
+                        <div class="item">
+                            <img src="../../Content/Images/exhibit.jpg" alt="Exhibit">
+                        </div>
+
+                        <div class="item">
+                            <img src="../../Content/Images/exhibit.jpg" alt="Exhibit">
+                        </div>
+                    </div>
+
+                </div>
+         
+                <div class="carousel-bottom-buttons">
+                    <div class="row">
+                        <div class="col-md-6"><button class="btn btn-success btn-block"> SF/Arts EXPRESS APP</button></div>
+                        <div class="col-md-6"><button class="btn btn-warning btn-block"> SF/Arts MONTHLY</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" id="calendar">
+                <table class="table">
+                    <thead><th>calendar highlights</th></thead>
+                    <tr categoryID="0" class="my-active selected"><td>Current/Soon</td></tr>
+                    <tr categoryID="1"><td>Children</td></tr>
+                    <tr categoryID="2"><td>Dance</td></tr>
+                    <tr categoryID="3"><td>Festivals</td></tr>
+                    <tr categoryID="4"><td>Film/Video</td></tr>
+                    <tr categoryID="5"><td>Galleries</td></tr>
+                    <tr categoryID="6"><td>Literary arts</td></tr>
+                    <tr categoryID="7"><td>More For Less</td></tr>
+                    <tr categoryID="8"><td>Music</td></tr>
+                    <tr categoryID="9"><td>Museums</td></tr>
+                    <tr categoryID="10"><td>Public Art</td></tr>
+                    <tr categoryID="11"><td>Theater</td></tr>
+                </table>
+
+                <button class="btn-xs btn-success hide-button" id="hide-button">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="col-md-6 col-xs-offset-6" id="right-side">
+            <div id="news-feed">
+
+                <div class="col-md-4" data-bind="foreach: firstColumn">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <img data-bind="attr:{src:imageURL}" class="img-responsive" />
+                        </div>
+                        <div class="panel-body" data-bind="text:content">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-bind="foreach: secondColumn">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <img data-bind="attr:{src:imageURL}" class="img-responsive" />
+                        </div>
+                        <div class="panel-body" data-bind="text:content">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-bind="foreach: thirdColumn">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <img data-bind="attr:{src:imageURL}" class="img-responsive" />
+                        </div>
+                        <div class="panel-body" data-bind="text:content">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/Scripts/knockout-3.4.0.js"></script>
+<script>
+    function Post(imageURL, content) {
+        this.imageURL = imageURL;
+        this.content = content;
+    }
+
+    function PostViewModel() {
+        var self = this;
+
+        self.firstColumn = ko.observableArray([
+            new Post("../../Content/Images/Events/conductor.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt \
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
+                            laboris nisi ut aliquip ex ea commodo consequat. <a href=\"#\">See more...</a>"),
+            new Post("../../Content/Images/Events/men-in-park.jpeg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt \
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
+                            laboris nisi ut aliquip ex ea commodo consequat. <a href=\"#\">See more...</a>")
+        ]);
+
+        self.secondColumn = ko.observableArray([
+            new Post("../../Content/Images/Events/manufacturer.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt \
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
+                            laboris nisi ut aliquip ex ea commodo consequat. <a href=\"#\">See more...</a>"),
+            new Post("../../Content/Images/Events/earthshake.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt \
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
+                            laboris nisi ut aliquip ex ea commodo consequat. <a href=\"#\">See more...</a>")
+        ]);
+
+        self.thirdColumn = ko.observableArray([
+            new Post("../../Content/Images/Events/lama.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt \
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
+                            laboris nisi ut aliquip ex ea commodo consequat. <a href=\"#\">See more...</a>"),
+            new Post("../../Content/Images/Events/exhibition.jpeg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt \
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
+                            laboris nisi ut aliquip ex ea commodo consequat. <a href=\"#\">See more...</a>")
+        ]);
+    }
+    ko.applyBindings(new PostViewModel());
+
+</script>
