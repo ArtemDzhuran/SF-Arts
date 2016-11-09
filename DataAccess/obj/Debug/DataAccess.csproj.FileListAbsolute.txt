@@ -1,0 +1,13 @@
+D:\ASP.NET\SF Arts\DataAccess\bin\Debug\DataAccess.exe.config
+D:\ASP.NET\SF Arts\DataAccess\bin\Debug\DataAccess.exe
+D:\ASP.NET\SF Arts\DataAccess\bin\Debug\DataAccess.pdb
+D:\ASP.NET\SF Arts\DataAccess\bin\Debug\EntityFramework.dll
+D:\ASP.NET\SF Arts\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.NET\SF Arts\DataAccess\bin\Debug\EntityFramework.xml
+D:\ASP.NET\SF Arts\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.NET\SF Arts\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\ASP.NET\SF Arts\DataAccess\obj\Debug\DataAccess.Migrations.InitialCreate.resources
+D:\ASP.NET\SF Arts\DataAccess\obj\Debug\DataAccess.Migrations.imageurifieldadded.resources
+D:\ASP.NET\SF Arts\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+D:\ASP.NET\SF Arts\DataAccess\obj\Debug\DataAccess.exe
+D:\ASP.NET\SF Arts\DataAccess\obj\Debug\DataAccess.pdb

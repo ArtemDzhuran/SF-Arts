@@ -1,0 +1,15 @@
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\BuisnessLogic.exe.config
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\BuisnessLogic.exe
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\BuisnessLogic.pdb
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\DataAccesLayer.exe
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\EntityFramework.dll
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\DataAccesLayer.pdb
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\EntityFramework.xml
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.NET\SF Arts\BuisnessLogic\obj\Debug\BuisnessLogic.csprojResolveAssemblyReference.cache
+D:\ASP.NET\SF Arts\BuisnessLogic\obj\Debug\BuisnessLogic.exe
+D:\ASP.NET\SF Arts\BuisnessLogic\obj\Debug\BuisnessLogic.pdb
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\NLog.config
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\NLog.dll
+D:\ASP.NET\SF Arts\BuisnessLogic\bin\Debug\NLog.xml

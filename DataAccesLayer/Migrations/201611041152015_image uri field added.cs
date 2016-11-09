@@ -1,8 +1,7 @@
-namespace SFArts.Migrations
+using System.Data.Entity.Migrations;
+
+namespace DataAccesLayer.Migrations
 {
-    using System;
-    using System.Data.Entity.Migrations;
-    
     public partial class imageurifieldadded : DbMigration
     {
         public override void Up()

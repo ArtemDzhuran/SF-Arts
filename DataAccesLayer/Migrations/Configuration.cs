@@ -1,11 +1,9 @@
-namespace SFArts.Migrations
-{
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
+using System.Data.Entity.Migrations;
+using DataAccesLayer.DbContexts;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<SFArts.Models.PostsDbContext>
+namespace DataAccesLayer.Migrations
+{
+    internal sealed class Configuration : DbMigrationsConfiguration<PostsDbContext>
     {
         public Configuration()
         {
@@ -13,7 +11,7 @@ namespace SFArts.Migrations
             ContextKey = "SFArts.Models.PostsDbContext";
         }
 
-        protected override void Seed(SFArts.Models.PostsDbContext context)
+        protected override void Seed(PostsDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

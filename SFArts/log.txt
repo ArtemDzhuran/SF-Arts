@@ -1,0 +1,402 @@
+2016-11-08 11:05:24.4157 TRACE Processing request Home/Index
+2016-11-08 11:08:09.9302 TRACE Processing request Home/Index
+2016-11-08 11:08:09.9412 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 11:08:42.2850 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-08 11:08:42.2850 TRACE Posts hednler was created
+2016-11-08 11:08:42.2850 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-08 11:08:44.1121 TRACE Processing request Home/Index finished successfully. Returning Json
+2016-11-08 11:12:09.4319 TRACE Processing request Home/Index
+2016-11-08 11:12:09.4439 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 11:12:15.2492 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-08 11:12:15.2492 TRACE Posts hednler was created
+2016-11-08 11:12:15.2492 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-08 11:12:15.7692 TRACE Processing request Home/Index finished with next errors: Test exception
+2016-11-08 11:13:40.7851 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-08 11:13:40.7851 TRACE Posts hednler was created
+2016-11-08 11:13:40.7991 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-08 11:13:42.6412 TRACE Processing request Home/Index finished successfully. Returning Json
+2016-11-08 11:28:39.4235 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=4
+2016-11-08 11:28:39.4235 TRACE Posts hednler was created
+2016-11-08 11:28:39.4235 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:4
+2016-11-08 11:28:39.5075 TRACE Processing request Home/Index finished successfully. Returning Json
+2016-11-08 11:28:42.9737 TRACE Processing request Home/Index
+2016-11-08 11:28:42.9737 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 11:30:00.9132 TRACE Processing request Home/Index
+2016-11-08 11:30:12.4288 ERROR Processing request Home/Index finished with next errors: Test exception at index
+2016-11-08 11:30:52.0661 TRACE Processing request Home/Index
+2016-11-08 12:00:44.5416 TRACE Processing request Home/Index
+2016-11-08 12:00:44.5416 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 12:04:16.2567 TRACE Processing request Home/Index
+2016-11-08 12:04:16.2567 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 12:04:29.7375 TRACE Processing request Home/Index
+2016-11-08 12:04:29.7375 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 16:49:43.2553 TRACE Processing request Home/Index
+2016-11-08 16:49:43.2553 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 16:53:05.3789 TRACE Processing request Home/Index
+2016-11-08 16:53:05.3919 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 16:53:22.6139 TRACE Processing request Home/Index
+2016-11-08 16:53:22.6139 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 17:06:54.9793 TRACE Processing request Home/Index
+2016-11-08 17:06:55.0053 TRACE Processing request Home/Index finished. Returning View
+2016-11-08 17:07:56.0148 TRACE Processing request Home/Index
+2016-11-08 17:07:56.0148 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:12:14.8726 TRACE Processing request Home/Index
+2016-11-09 10:12:14.8836 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:12:56.7260 TRACE Processing request Home/Index
+2016-11-09 10:12:56.7260 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:15:10.4387 TRACE Processing request Home/Index
+2016-11-09 10:15:10.4387 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:15:57.8984 TRACE Processing request Home/Index
+2016-11-09 10:15:57.8984 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:16:10.4211 TRACE Processing request Home/Index
+2016-11-09 10:16:10.4211 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:16:15.0393 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:16:15.0393 TRACE Posts hednler was created
+2016-11-09 10:16:15.0473 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:16:16.8004 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:16:16.8004 TRACE Posts hednler was created
+2016-11-09 10:16:16.8004 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:16:18.3455 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=0
+2016-11-09 10:16:18.3455 TRACE Posts hednler was created
+2016-11-09 10:16:18.3455 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:0
+2016-11-09 10:16:22.1218 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:16:22.1218 TRACE Posts hednler was created
+2016-11-09 10:16:22.1218 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:16:39.8178 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:16:39.8188 TRACE Posts hednler was created
+2016-11-09 10:16:39.8188 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:16:40.1368 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.1368 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.1368 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.1368 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.1368 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.1888 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:16:40.1888 TRACE Posts hednler was created
+2016-11-09 10:16:40.1888 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:16:40.1888 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:16:40.1888 TRACE Posts hednler was created
+2016-11-09 10:16:40.1888 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:16:40.1888 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:16:40.1888 TRACE Posts hednler was created
+2016-11-09 10:16:40.1888 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:16:40.1948 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.1948 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:16:40.1948 TRACE Posts hednler was created
+2016-11-09 10:16:40.1948 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:16:40.1948 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.2438 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.2438 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:16:40.2438 TRACE Posts hednler was created
+2016-11-09 10:16:40.2438 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:16:40.3038 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:16:40.3038 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:18:42.4488 TRACE Processing request Home/Index
+2016-11-09 10:18:42.4488 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:18:42.7158 TRACE Processing request Home/Index
+2016-11-09 10:18:42.7158 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:18:47.6301 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:18:47.6311 TRACE Posts hednler was created
+2016-11-09 10:18:47.6311 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:18:47.6311 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:19:10.5264 TRACE Processing request Home/Index
+2016-11-09 10:19:10.5264 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:19:14.7016 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:19:14.7016 TRACE Posts hednler was created
+2016-11-09 10:19:14.7016 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:19:14.7196 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:19:50.3637 TRACE Processing request Home/Index
+2016-11-09 10:19:50.3637 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:19:55.0399 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:19:55.0399 TRACE Posts hednler was created
+2016-11-09 10:19:55.0399 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:19:55.0799 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:20:04.4415 TRACE Processing request Home/Index
+2016-11-09 10:20:04.4415 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:20:08.5717 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:20:08.5717 TRACE Posts hednler was created
+2016-11-09 10:20:08.5717 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:20:08.5717 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:20:10.8828 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:20:10.8828 TRACE Posts hednler was created
+2016-11-09 10:20:10.8828 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:20:10.8948 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:20:12.3199 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:20:12.3199 TRACE Posts hednler was created
+2016-11-09 10:20:12.3199 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:20:12.3269 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:20:13.0150 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:20:13.0150 TRACE Posts hednler was created
+2016-11-09 10:20:13.0150 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:20:13.0150 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:20:30.8020 TRACE Processing request Home/Index
+2016-11-09 10:20:30.8020 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:20:36.2943 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:20:36.2943 TRACE Posts hednler was created
+2016-11-09 10:20:36.2943 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:20:36.2943 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:44.2362 TRACE Processing request Home/Index
+2016-11-09 10:21:44.2362 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:21:49.0225 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:21:49.0225 TRACE Posts hednler was created
+2016-11-09 10:21:49.0225 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:21:49.0225 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:50.3165 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:21:50.3165 TRACE Posts hednler was created
+2016-11-09 10:21:50.3165 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:21:50.3165 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:51.0356 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:21:51.0356 TRACE Posts hednler was created
+2016-11-09 10:21:51.0356 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:21:51.0486 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:51.9466 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:21:51.9466 TRACE Posts hednler was created
+2016-11-09 10:21:51.9466 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:21:51.9466 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:52.5957 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:21:52.5957 TRACE Posts hednler was created
+2016-11-09 10:21:52.5957 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:21:52.6017 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:53.0667 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:21:53.0667 TRACE Posts hednler was created
+2016-11-09 10:21:53.0667 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:21:53.0707 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:53.9377 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:21:53.9377 TRACE Posts hednler was created
+2016-11-09 10:21:53.9377 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:21:53.9457 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:54.5208 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=4
+2016-11-09 10:21:54.5208 TRACE Posts hednler was created
+2016-11-09 10:21:54.5208 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:4
+2016-11-09 10:21:54.5208 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:55.4268 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=5
+2016-11-09 10:21:55.4268 TRACE Posts hednler was created
+2016-11-09 10:21:55.4268 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:5
+2016-11-09 10:21:55.4268 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:55.9118 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=7
+2016-11-09 10:21:55.9118 TRACE Posts hednler was created
+2016-11-09 10:21:55.9118 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:7
+2016-11-09 10:21:55.9118 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:56.5679 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=4
+2016-11-09 10:21:56.5679 TRACE Posts hednler was created
+2016-11-09 10:21:56.5679 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:4
+2016-11-09 10:21:56.5679 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:57.0419 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:21:57.0419 TRACE Posts hednler was created
+2016-11-09 10:21:57.0419 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:21:57.0519 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:57.5039 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:21:57.5039 TRACE Posts hednler was created
+2016-11-09 10:21:57.5039 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:21:57.5039 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:58.0460 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:21:58.0460 TRACE Posts hednler was created
+2016-11-09 10:21:58.0460 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:21:58.0460 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:58.9360 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:21:58.9360 TRACE Posts hednler was created
+2016-11-09 10:21:58.9360 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:21:58.9580 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:21:59.6481 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:21:59.6481 TRACE Posts hednler was created
+2016-11-09 10:21:59.6481 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:21:59.6521 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:22:00.2061 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:22:00.2061 TRACE Posts hednler was created
+2016-11-09 10:22:00.2061 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:22:00.2061 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:22:00.9561 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:22:00.9561 TRACE Posts hednler was created
+2016-11-09 10:22:00.9561 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:22:00.9561 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:22:01.6822 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:22:01.6822 TRACE Posts hednler was created
+2016-11-09 10:22:01.6822 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:22:01.6822 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:02.6957 TRACE Processing request Home/Index
+2016-11-09 10:23:02.6957 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:23:07.1289 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:23:07.1289 TRACE Posts hednler was created
+2016-11-09 10:23:07.1289 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:23:07.1289 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:11.9582 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:23:11.9582 TRACE Posts hednler was created
+2016-11-09 10:23:11.9582 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:23:11.9602 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:16.5225 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=4
+2016-11-09 10:23:16.5225 TRACE Posts hednler was created
+2016-11-09 10:23:16.5225 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:4
+2016-11-09 10:23:16.5225 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:17.6205 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=5
+2016-11-09 10:23:17.6215 TRACE Posts hednler was created
+2016-11-09 10:23:17.6215 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:5
+2016-11-09 10:23:17.6215 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:18.2886 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=4
+2016-11-09 10:23:18.2886 TRACE Posts hednler was created
+2016-11-09 10:23:18.2886 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:4
+2016-11-09 10:23:18.2966 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:18.6676 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:23:18.6676 TRACE Posts hednler was created
+2016-11-09 10:23:18.6676 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:23:18.6676 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:18.9506 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:23:18.9506 TRACE Posts hednler was created
+2016-11-09 10:23:18.9506 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:23:18.9506 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:19.2556 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:23:19.2556 TRACE Posts hednler was created
+2016-11-09 10:23:19.2556 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:23:19.2556 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:19.5796 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:23:19.5796 TRACE Posts hednler was created
+2016-11-09 10:23:19.5796 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:23:19.5796 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:19.8996 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:23:19.8996 TRACE Posts hednler was created
+2016-11-09 10:23:19.8996 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:23:19.8996 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:23:28.9222 TRACE Processing request Home/Index
+2016-11-09 10:23:28.9222 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:56:55.8550 TRACE Processing request Home/Index
+2016-11-09 10:56:55.8550 TRACE Processing request Home/Index finished. Returning View
+2016-11-09 10:57:05.1295 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:57:05.1295 TRACE Posts hednler was created
+2016-11-09 10:57:05.1295 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:57:07.1516 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:57:07.1516 TRACE Posts hednler was created
+2016-11-09 10:57:07.1516 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:57:12.4359 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:12.4359 TRACE Posts hednler was created
+2016-11-09 10:57:12.4369 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:14.8060 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:14.8060 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:14.8060 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:14.8400 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:14.8400 TRACE Posts hednler was created
+2016-11-09 10:57:14.8400 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:14.8400 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:57:14.8400 TRACE Posts hednler was created
+2016-11-09 10:57:14.8400 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:57:14.8400 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:57:14.8540 TRACE Posts hednler was created
+2016-11-09 10:57:14.8540 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:57:14.8540 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:14.8540 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:14.8540 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:14.8720 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:57:14.8720 TRACE Posts hednler was created
+2016-11-09 10:57:14.8720 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:57:14.8720 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:14.8860 TRACE Posts hednler was created
+2016-11-09 10:57:14.8860 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:14.8860 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:14.8860 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:14.9060 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:57:14.9060 TRACE Posts hednler was created
+2016-11-09 10:57:14.9060 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:57:14.9060 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:23.4225 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:23.4225 TRACE Posts hednler was created
+2016-11-09 10:57:23.4225 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:23.4225 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:24.6366 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=4
+2016-11-09 10:57:24.6366 TRACE Posts hednler was created
+2016-11-09 10:57:24.6366 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:4
+2016-11-09 10:57:24.6366 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:25.9827 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=5
+2016-11-09 10:57:25.9827 TRACE Posts hednler was created
+2016-11-09 10:57:25.9827 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:5
+2016-11-09 10:57:25.9827 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:26.4877 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:26.4877 TRACE Posts hednler was created
+2016-11-09 10:57:26.4877 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:26.4947 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:27.1717 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:57:27.7058 TRACE Posts hednler was created
+2016-11-09 10:57:27.7058 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:57:27.7118 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:28.6218 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:57:28.6218 TRACE Posts hednler was created
+2016-11-09 10:57:28.6218 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:57:28.6288 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:29.7579 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:57:29.7579 TRACE Posts hednler was created
+2016-11-09 10:57:29.7579 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:57:29.7579 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:30.3839 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:30.3839 TRACE Posts hednler was created
+2016-11-09 10:57:30.3839 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:30.3839 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:33.2031 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:33.2031 TRACE Posts hednler was created
+2016-11-09 10:57:33.2031 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:33.2031 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:33.6641 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:33.6641 TRACE Posts hednler was created
+2016-11-09 10:57:33.6641 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:33.6681 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:33.6681 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 10:57:33.6681 TRACE Posts hednler was created
+2016-11-09 10:57:33.6681 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 10:57:33.6851 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:34.5932 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 10:57:34.5932 TRACE Posts hednler was created
+2016-11-09 10:57:34.5932 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 10:57:34.5932 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 10:57:36.6413 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 10:57:36.6413 TRACE Posts hednler was created
+2016-11-09 10:57:36.6413 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 10:57:36.6513 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:38.8017 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 11:51:38.8017 TRACE Posts hednler was created
+2016-11-09 11:51:38.8017 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 11:51:38.9487 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:40.2848 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 11:51:40.2848 TRACE Posts hednler was created
+2016-11-09 11:51:40.2848 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 11:51:40.2848 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:42.3249 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 11:51:42.3249 TRACE Posts hednler was created
+2016-11-09 11:51:42.3249 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 11:51:42.3289 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:43.0230 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 11:51:43.0230 TRACE Posts hednler was created
+2016-11-09 11:51:43.0230 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 11:51:43.0230 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:43.6810 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 11:51:43.6810 TRACE Posts hednler was created
+2016-11-09 11:51:43.6810 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 11:51:43.6840 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:44.3350 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 11:51:44.3350 TRACE Posts hednler was created
+2016-11-09 11:51:44.3350 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 11:51:44.3470 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:44.9461 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 11:51:44.9471 TRACE Posts hednler was created
+2016-11-09 11:51:44.9471 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 11:51:44.9471 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:45.4851 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=3
+2016-11-09 11:51:45.4851 TRACE Posts hednler was created
+2016-11-09 11:51:45.4851 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:3
+2016-11-09 11:51:45.4941 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:46.2282 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 11:51:46.2282 TRACE Posts hednler was created
+2016-11-09 11:51:46.2282 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 11:51:46.2282 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:51:46.6482 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 11:51:46.6482 TRACE Posts hednler was created
+2016-11-09 11:51:46.6482 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 11:51:46.6482 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:52:01.5350 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=2
+2016-11-09 11:52:01.5350 TRACE Posts hednler was created
+2016-11-09 11:52:01.5350 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:2
+2016-11-09 11:52:01.5470 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:52:12.7407 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 11:52:12.7407 TRACE Posts hednler was created
+2016-11-09 11:52:12.7407 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 11:52:12.7477 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:52:39.5462 TRACE Processing request Home/GetPostsOfCategoryId with next params: id=1
+2016-11-09 11:52:39.5462 TRACE Posts hednler was created
+2016-11-09 11:52:39.5462 TRACE PostsHandler GetPostsOfCategoryId was called with next params: id:1
+2016-11-09 11:52:39.5582 TRACE Processing request Home/GetPostsOfCategoryId finished successfully. Returning Json
+2016-11-09 11:54:05.2891 TRACE Processing request Home/Index
+2016-11-09 11:54:05.3031 TRACE Processing request Home/Index finished. Returning View

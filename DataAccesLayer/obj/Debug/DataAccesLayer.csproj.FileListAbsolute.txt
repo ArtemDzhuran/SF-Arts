@@ -1,0 +1,17 @@
+D:\ASP.NET\SF Arts\DataAccesLayer\obj\Debug\DataAccesLayer.csproj.GenerateResource.Cache
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\DataAccesLayer.exe.config
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\DataAccesLayer.exe
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\DataAccesLayer.pdb
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\EntityFramework.dll
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\EntityFramework.xml
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.NET\SF Arts\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.InitialCreate.resources
+D:\ASP.NET\SF Arts\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.imageurifieldadded.resources
+D:\ASP.NET\SF Arts\DataAccesLayer\obj\Debug\DataAccesLayer.exe
+D:\ASP.NET\SF Arts\DataAccesLayer\obj\Debug\DataAccesLayer.pdb
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\NLog.config
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\NLog.dll
+D:\ASP.NET\SF Arts\DataAccesLayer\bin\Debug\NLog.xml
+D:\ASP.NET\SF Arts\DataAccesLayer\obj\Debug\DataAccesLayer.csprojResolveAssemblyReference.cache
+D:\ASP.NET\SF Arts\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.ChangedpropertynameImageUritoImageURL.resources

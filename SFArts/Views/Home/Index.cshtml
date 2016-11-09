@@ -49,16 +49,25 @@
         });
 
         $(".table tr").hover(function() {
-            console.log("i hover the tr");
             $(this).addClass("my-active");
         }, function () {
-            console.log("i unhover the tr");
             $(this).removeClass("my-active");
         });
 
         $('[data-toggle="tooltip"]').tooltip();
-        //var leftSideHeight = $("#carousel-wraper").css("height");
-        //$("#calendar").css("height", leftSideHeight);
+
+        @*$(".calendar-item").click(function () {
+            console.log("menu item has been clicked");
+            var clicked = $(this);
+            console.log(clicked);
+            $.ajax({
+                type: "GET",
+                url: "@Url.Action("GetPostsOfCategoryId", "Home")" + "?id=" + encodeURIComponent(clicked.attr("category")),
+                success: function(response) {
+                    console.log(response);
+                }
+            });
+        });*@
     });
 </script>
 
@@ -82,9 +91,9 @@
 
 <div class="container-fluid" id="initial-container">
     <div class="row" id="initial-row">
-        <div class="col-md-6" id="left-side" >
 
-
+        <div class="col-md-6" id="left-side">
+            
             <div class="col-md-9" id="carousel-wraper">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -113,12 +122,24 @@
                         </div>
                     </div>
 
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
                 </div>
-         
+
                 <div class="carousel-bottom-buttons">
                     <div class="row">
-                        <div class="col-md-6"><button class="btn btn-success btn-block"> SF/Arts EXPRESS APP</button></div>
-                        <div class="col-md-6"><button class="btn btn-warning btn-block"> SF/Arts MONTHLY</button></div>
+                        <div class="col-md-6"><button class="btn btn-success btn-block"> SF/Arts EXPRESS APP</button>
+                        </div>
+                        <div class="col-md-6"><button class="btn btn-warning btn-block"> SF/Arts MONTHLY</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,18 +147,18 @@
             <div class="col-md-3" id="calendar">
                 <table class="table">
                     <thead><th>calendar highlights</th></thead>
-                    <tr categoryID="0" class="my-active selected"><td>Current/Soon</td></tr>
-                    <tr categoryID="1"><td>Children</td></tr>
-                    <tr categoryID="2"><td>Dance</td></tr>
-                    <tr categoryID="3"><td>Festivals</td></tr>
-                    <tr categoryID="4"><td>Film/Video</td></tr>
-                    <tr categoryID="5"><td>Galleries</td></tr>
-                    <tr categoryID="6"><td>Literary arts</td></tr>
-                    <tr categoryID="7"><td>More For Less</td></tr>
-                    <tr categoryID="8"><td>Music</td></tr>
-                    <tr categoryID="9"><td>Museums</td></tr>
-                    <tr categoryID="10"><td>Public Art</td></tr>
-                    <tr categoryID="11"><td>Theater</td></tr>
+                    <tr data-bind="click:loadData.bind($data,1)" class="calendar-item my-active selected" category="0"><td>Current/Soon</td></tr>
+                    <tr data-bind="click:loadData.bind($data,2)" class="calendar-item"  ><td>Children</td></tr>
+                    <tr data-bind="click:loadData.bind($data,3)" class="calendar-item"  ><td>Dance</td></tr>
+                    <tr data-bind="click:loadData.bind($data,4)" class="calendar-item"  ><td>Festivals</td></tr>
+                    <tr data-bind="click:loadData.bind($data,5)" class="calendar-item"  ><td>Film/Video</td></tr>
+                    <tr data-bind="click:loadData.bind($data,6)" class="calendar-item"  ><td>Galleries</td></tr>
+                    <tr data-bind="click:loadData.bind($data,7)" class="calendar-item"  ><td>Literary arts</td></tr>
+                    <tr data-bind="click:loadData.bind($data,8)" class="calendar-item"  ><td>More For Less</td></tr>
+                    <tr data-bind="click:loadData.bind($data,9)" class="calendar-item"  ><td>Music</td></tr>
+                    <tr data-bind="click:loadData.bind($data,10)" class="calendar-item" ><td>Museums</td></tr>
+                    <tr data-bind="click:loadData.bind($data,11)" class="calendar-item" ><td>Public Art</td></tr>
+                    <tr data-bind="click:loadData.bind($data,12)" class="calendar-item" ><td>Theater</td></tr>
                 </table>
 
                 <button class="btn-xs btn-success hide-button" id="hide-button">
@@ -147,8 +168,9 @@
 
         </div>
 
-        <div class="col-md-6 col-xs-offset-6" id="right-side">
-            <div id="news-feed">
+        <div class="col-md-6" id="right-side">
+         
+               <div id="news-feed">
 
                 <div class="col-md-4" data-bind="foreach: firstColumn">
                     <div class="panel panel-default">
@@ -188,9 +210,12 @@
 
 <script type="text/javascript" src="~/Scripts/knockout-3.4.0.js"></script>
 <script>
-    function Post(imageURL, content) {
+    
+
+    function Post(imageURL, content, category) {
         this.imageURL = imageURL;
         this.content = content;
+        this.category = category;
     }
 
     function PostViewModel() {
@@ -222,6 +247,26 @@
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco \
                             laboris nisi ut aliquip ex ea commodo consequat. <a href=\"#\">See more...</a>")
         ]);
+
+        self.loadData = function (sender) {
+            $.getJSON("@Url.Action("GetPostsOfCategoryId", "Home")" + "?id=" + sender, function (data) {
+                var delta = 3;
+                self.firstColumn.removeAll();
+                self.secondColumn.removeAll();
+                self.thirdColumn.removeAll();
+
+                for (var i = 0; i < data.length; i += delta) {
+                    self.firstColumn.push(new Post(data[i].ImageURL, data[i].Content));
+                }
+                for (i = 1; i < data.length; i += delta) {
+                    self.secondColumn.push(new Post(data[i].ImageURL, data[i].Content));
+                }
+                for (i = 2; i < data.length; i += delta) {
+                    self.thirdColumn.push(new Post(data[i].ImageURL, data[i].Content));
+                }
+            });
+        }
+
     }
     ko.applyBindings(new PostViewModel());
 
